@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tipoche</title>
+<style>
+  :root { color-scheme: light dark; --teal: #2E8B9A; --cream: #FBFAF5; --ink: #1C2E33; --bg: #E6EFF0; --amber: #F0B35A; }
+  @media (prefers-color-scheme: dark) { :root { --ink: #F3EFE2; --bg: #0E1B1F; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { background: var(--teal); color: var(--cream); padding: 56px 16px; text-align: center; }
+  header h1 { font-size: 44px; margin: 16px 0 6px; }
+  header p { margin: 0; font-size: 20px; opacity: .92; }
+  main { max-width: 72ch; margin: 0 auto; padding: 40px 16px 64px; }
+  ul { padding-left: 20px; }
+  li { margin: 8px 0; }
+  .shots { display: flex; gap: 12px; overflow-x: auto; padding: 8px 0 16px; }
+  .shots img { height: 420px; border-radius: 18px; flex: none; }
+  a { color: var(--teal); }
+  footer { text-align: center; opacity: .7; padding: 0 16px 40px; }
+</style>
+</head>
+<body>
+<header>
+  <img src="store/icone-512.png" width="112" height="112" alt="" style="border-radius: 28px">
+  <h1>Tipoche</h1>
+  <p>Tes cartes de fidélité et tes papiers, dans la poche.</p>
+</header>
+<main>
+  <div class="shots">
+    <img src="screenshots/liste.png" alt="Liste des cartes">
+    <img src="screenshots/detail.png" alt="Code-barres d'une carte">
+    <img src="screenshots/nouvelle-carte.png" alt="Ajout d'une carte">
+    <img src="screenshots/document.png" alt="Document chiffré">
+    <img src="screenshots/liste-sombre.png" alt="Mode sombre">
+  </div>
+  <ul>
+    <li>Photographie une carte : le code-barres et le nom sont lus, le code est réaffiché propre et lumineux pour la caisse.</li>
+    <li>Dossiers, favoris, recherche, widget d'écran d'accueil.</li>
+    <li>Copies de papiers chiffrées sur le téléphone, déverrouillées par empreinte.</li>
+    <li>Gratuit, sans pub, sans compte. Rien ne quitte ton téléphone.</li>
+  </ul>
+  <p><a href="confidentialite.html">Politique de confidentialité</a> · <a href="mailto:fabiendourdin@gmail.com">Contact</a></p>
+</main>
+<footer>Tipoche, par zeii.</footer>
+</body>
+</html>
